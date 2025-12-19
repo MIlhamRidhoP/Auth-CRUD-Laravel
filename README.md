@@ -24,21 +24,17 @@
 
 - Autentikasi pengguna (Login & Register)
 - Proteksi halaman menggunakan middleware
-- CRUD (Create, Read, Update, Delete) data
-- Struktur MVC Laravel yang rapi
+- CRUD (Create, Read, Update, Delete)
 
-Project ini cocok untuk:
-- Tugas kuliah
-- Latihan Laravel
-- Portfolio dasar backend web
+Project ini dibuat untuk **latihan, tugas kuliah, dan portfolio**.
 
 ---
 
 ## 🚀 Fitur
 
-- ✅ Register & Login
-- ✅ Logout
-- ✅ Middleware Auth
+- ✅ Register
+- ✅ Login & Logout
+- ✅ Proteksi halaman (Auth Middleware)
 - ✅ CRUD Data
 - ✅ Validasi Form
 - ✅ Database Migration
@@ -47,13 +43,27 @@ Project ini cocok untuk:
 
 ## 🛠️ Teknologi
 
-- **Laravel**
-- **PHP**
-- **MySQL / MariaDB**
-- **Blade Template Engine**
-- **Composer**
+- Laravel
+- PHP
+- MySQL / MariaDB
+- Blade Template Engine
+- Composer
 
 ---
 
 ## 📂 Struktur Project
+
+```text
+app/
+├── Http/
+│   ├── Controllers/
+│   └── Middleware/
+database/
+├── migrations/
+resources/
+├── views/
+routes/
+├── web.php
+
+
 
